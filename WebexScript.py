@@ -7,7 +7,7 @@ url = "https://webexapis.com/v1/messages"
 maxInt = (int)(1)
 
 roomId= "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vZGIwODdjYzAtYzlkYy0xMWYwLWE4NmYtNTdlODQ3OWQ4Zjg5"
-webexToken = "ZDg2ZjY5NWEtZjI3Ni00NGVlLWE1NDYtZmJkMGNjZGFmZjg0MTc1MWI4NWQtYzYw_P0A1_13494cac-24b4-4f89-8247-193cc92a7636"
+webexToken = "OGM1ZjI2N2QtNWRkNS00MzQ5LWI5YjItMDdkNmJjMGYwNDVjNmU5ZDJiNmUtY2Fj_P0A1_13494cac-24b4-4f89-8247-193cc92a7636"
 
 result = requests.get( f"{url}?roomId={roomId}&max={maxInt}", headers = {"Authorization": f"Bearer {webexToken}", "Accept": "application/json"})
 
